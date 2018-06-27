@@ -1,0 +1,8 @@
+﻿@using Prode.Core.Entidades
+@{
+    ViewData["Title"] = "Form";
+    var partido = (Partido)ViewBag.Partido;
+}
+
+<h2>@partido.InformaResultado()</h2>
+
